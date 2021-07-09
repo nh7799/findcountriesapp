@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Where in the world</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="navigator">
+      <div class="title">Where in the world</div>
+      <div class="switch-mode">
+        <i class="fas fa-moon ico"></i>
+        Dark Mode
+      </div>
+      <div class="loader hidden">
+
+      </div>
+    </div>
+    <main class="main-content">
+      <div class="control-panel">
+        <div class="search-box">
+          <input
+            type="text"
+            class="search-country"
+            placeholder="Search for a country..."
+          />
+        </div>
+        <div class="filter-country">
+          <select name="" id="select-country">
+            <option value="Asia" class="region region__1">
+              Filter by region
+            </option>
+            <!-- <option value="Europe" class="region region__2">Europe</option>
+            <option value="" class="region region__3"></option>
+            <option value="" class="region region__4"></option>
+            <option value="" class="region region__5"></option>
+            <option value="" class="region region__6"></option> -->
+          </select>
+        </div>
+      </div>
+      <div class="main-grid">
+        <!-- <div class="main-grid__column">
+          <img class="main-grid__column__flag" src="" />
+          <div class="main-grid__column__text">
+            <div class="country-name">United states</div>
+            <ul class="details">
+              <li class="detail_1">Population</li>
+              <li class="detail_2">Region</li>
+              <li class="detail_3">Capital</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="main-grid__column">
+          <div class="main-grid__column__flag"></div>
+          <div class="main-grid__column__text">
+            <div class="country-name">United states</div>
+            <ul class="details">
+              <li class="detail_1">Population</li>
+              <li class="detail_2">Region</li>
+              <li class="detail_3">Capital</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="main-grid__column">
+          <div class="main-grid__column__flag"></div>
+          <div class="main-grid__column__text">
+            <div class="country-name">United states</div>
+            <ul class="details">
+              <li class="detail_1">Population</li>
+              <li class="detail_2">Region</li>
+              <li class="detail_3">Capital</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="main-grid__column">
+          <div class="main-grid__column__flag"></div>
+          <div class="main-grid__column__text">
+            <div class="country-name">United states</div>
+            <ul class="details">
+              <li class="detail_1">Population</li>
+              <li class="detail_2">Region</li>
+              <li class="detail_3">Capital</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="main-grid__column">
+          <div class="main-grid__column__flag"></div>
+          <div class="main-grid__column__text">
+            <div class="country-name">United states</div>
+            <ul class="details">
+              <li class="detail_1">Population</li>
+              <li class="detail_2">Region</li>
+              <li class="detail_3">Capital</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="main-grid__column">
+          <div class="main-grid__column__flag"></div>
+          <div class="main-grid__column__text">
+            <div class="country-name">United states</div>
+            <ul class="details">
+              <li class="detail_1">Population</li>
+              <li class="detail_2">Region</li>
+              <li class="detail_3">Capital</li>
+            </ul>
+          </div>
+        </div> -->
+      </div>
+    </main>
+
+    <div class="details-page hidden anim-slide-in">
+      <div class="details-page__grid">
+        <div class="row-1">
+          <div class="back-btn">Back</div>
+        </div>
+        <div class="row-2">
+          <div class="flag">
+            <image class="flag-image">
+          </div>
+          <div class="content">
+            <div class="content__row-1">
+              <div class="content__row-1__title details-page-title">
+                United states
+              </div>
+            </div>
+            <div class="content__row-2">
+              <div class="first-column">
+                <ul class="list">
+                  <li class="list-item">
+                    Native Name: <span class="native"></span>
+                  </li>
+                  <li class="list-item">
+                    population: <span class="population"></span>
+                  </li>
+                  <li class="list-item">
+                    region: <span class="region2"></span>
+                  </li>
+                  <li class="list-item">
+                    sub region: <span class="sub-region"></span>
+                  </li>
+                  <li class="list-item">
+                    capital: <span class="capital"></span>
+                  </li>
+                </ul>
+              </div>
+              <div class="second-column">
+                <ul class="list">
+                  <li class="list-item">
+                    Top level domain: <span class="domain"></span>
+                  </li>
+                  <li class="list-item">
+                    currencies: <span class="currencies"></span>
+                  </li>
+                  <li class="list-item">
+                    languages: <span class="language"></span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="content__row-3">
+              <div class="content__row-3__col__1">
+              <div class="normal-text">Border-countries
+
+              </div>
+            
+            </div>
+              <div class="content__row-3__col__2">
+
+                   <!-- <div class="box-text">france</div>
+              <div class="box-text">germany</div>
+              <div class="box-text">netherlands</div> -->
+              </div>
+              
+           
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/676c2f5303.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="./script.js"></script>
+</html>
