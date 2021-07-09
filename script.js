@@ -17,8 +17,8 @@ const getData = async function () {
 };
 
 const checkStr = function (str) {
-  if (str.length > 12) {
-    return `${str.slice(0, 15)}..`;
+  if (str.length > 20) {
+    return `${str.slice(0, 20)}..`;
   } else {
     return str;
   }
